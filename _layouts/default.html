@@ -1,0 +1,19 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="author" content="xus898" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="xus898's Blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <style>{% include style.css %}</style>
+</head>
+<body>
+    {{ content }}
+</body>
+</html>
